@@ -30,12 +30,16 @@ Everybody helped to each other whenever sometime stuck in problem.We did it by a
 
 # Summary of Project :
 
+#### Data Cleaning and Analysis:
 
 First step involved importing APIs to call weather, wine and soil data. The data was collected from Global Wine Scores, NOAA, and the USGS website. It was then cleaned and finally merged together. Data was split between white wine and red wine before the weather and soil data was merged with it. The Global Wine Scores website has data for wines, the regions that they were grown in, and the scores associated with each wine. These vintages range from 1992 to 2016 and have an average score of approximately 91%. The wine data takes different wines and scores going back to 1992.Some of the challenges for finding the best weather data was to find zip codes that have reliable temperature and precipitation data. Most of the zip codes had data that originated before 1992 but the stations had missig dates for temperature, precipitation, or both of the values. The process for finding optimal stations involved an iterative process of importing different zip codes for temperature data and different zip codes for precipitation data to determine which zip codes have the best coverage of data. Another challenge to merging weather and wine data was that several appellations (regions) within a state straddled two different zip codes. One of the assumptions this study has made was that weather data would be the same for zip codes that were within 50 mile radius of one another. This allowed the group to assign zip codes for certain appellations and allowed the data to be merged together more succinctly. The wine data comes from wine that is concentrated in Washington State, Oregon, Napa Valley California, Sonoma County California, and the Santa Cruz Mountains in California as well. There were some appellations that only have one or two data points that were dropped from the study.
 
+#### Database Storage:
+
+
 The data was connected through primary keys (unique values in the main table).Once the relationship of the database was created, we use AWS to read and write data from our notebook to and from SQL. In SQL, we join soil table to the red wine table, and soil table to the white table.
 
-Model Choice, Benefits & Limitations:
+#### Model Choice, Benefits & Limitations for Machine Learning:
 
 * Deep Learning Neural Network - The limitation of the model is that it requires a large amount of data and it's not easy to comprehend. The benefits of this model can solve complex problems.
 
@@ -48,7 +52,12 @@ Model Choice, Benefits & Limitations:
 We chose the Logistic Regression model as the best fit model for this analysis after trying multiple models and considering the structure of our data to help answer our questions.
 
 
-Flask App/HTML:
+## Flask App/HTML as Dashboard:
+
+
+The flask app was desgined along with the HTML to allow users to input data into our app and determine if a particular wine from a particular year is a good vintage. The app takes in inputs such as: red or white wine, vintage, and the vineyard where the wine comes from. The app then uses the Machine Learning model to determine if the wine is of high quality or low quality. Some of the challenges we faced when building the app are that we have red and white wine csv files, we needed to use JavaScript to filter through the vineyards based on color because all wineries did not grow red and white grapes.
+
+
 
 https://groupfive-wine.herokuapp.com/
 
