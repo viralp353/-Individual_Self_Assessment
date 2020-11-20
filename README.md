@@ -52,7 +52,7 @@ The data was connected through primary keys (unique values in the main table).On
 We chose the Logistic Regression model as the best fit model for this analysis after trying multiple models and considering the structure of our data to help answer our questions.
 
 
-## Flask App/HTML as Dashboard:
+#### Flask App/HTML as Dashboard:
 
 
 The flask app was desgined along with the HTML to allow users to input data into our app and determine if a particular wine from a particular year is a good vintage. The app takes in inputs such as: red or white wine, vintage, and the vineyard where the wine comes from. The app then uses the Machine Learning model to determine if the wine is of high quality or low quality. Some of the challenges we faced when building the app are that we have red and white wine csv files, we needed to use JavaScript to filter through the vineyards based on color because all wineries did not grow red and white grapes.
