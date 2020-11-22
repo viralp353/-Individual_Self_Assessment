@@ -13,7 +13,7 @@
  In Third Week,We had a data with clean.One of Teammate had alrerady set up machine learning with Aws server.Now We were need to find best model fit for data.I was also drive into machine learning to try to get high accuray. It was very hard to get high accuary without overfitting.I contributed also tableu set up in third week.I tried to convert all project analysis into tableu and tried to find best answer for project Analysis.It was very short week for cover all things .
  
  
-In Fourth and final week for Project ,We were about done our project but Our TA gave to us  one more challenge to add web app as part of Darshboad That'why We had a lot of frusruted. Because nobody had any type of exprience  for dump machine learning into flask app and also We had 4 days for complete webapp.Everybody tried to find way by watching video &online material to  about  how to dump machine learning dump into flask app.I was also drive into to find solution.Finally We got solution by a lot of experiment.I prepared also  tableau and ppt google side for presentations.It was great exprience.I learnt a lot of things from project.I was very gratefull to part of nice team member.
+In Fourth and final week for Project ,We were about  to done our project but Our TA gave to us  one more challenge to add web app as part of Darshboad That'why We had a lot of frusruted. Because nobody had any type of exprience  for dump machine learning into flask app and also We had 4 days for complete webapp.Everybody tried to find way by watching video &online material to  about  how to dump machine learning into flask app.I was also drive into to find solution.Finally We got solution by a lot of experiment.I prepared also  tableau and ppt google side for presentations.It was great exprience.I learnt a lot of things from project.I was very gratefull to part of nice team member.
 
 
 
@@ -37,7 +37,7 @@ First step involved importing APIs to call weather, wine and soil data. The data
 #### Database Storage:
 
 
-The data was connected through primary keys (unique values in the main table).Once the relationship of the database was created, we use AWS to read and write data from our notebook to and from SQL. In SQL, we join soil table to the red wine table, and soil table to the white table.
+The data was connected through primary keys (unique values in the main table).Once the relationship of the database was created, we used AWS to read and write data from our notebook to and from SQL. In SQL, we joined soil table to the red wine table, and soil table to the white table.
 
 #### Model Choice, Benefits & Limitations for Machine Learning:
 
