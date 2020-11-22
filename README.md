@@ -10,10 +10,10 @@
  
  
  
- In Third Week,We had a data with clean.One of Teammate had alrerady set up machine learning with Aws server.Now We were need to find best model fit for data.I was also drive into machine learning to try to get high accuray. It was very hard to get high accuary without overfitting.I contributed also tableu set up in third week.I tried to convert all project analysis into tableu and tried to find best answer for project Analysis.It was very short for cover all things .
+ In Third Week,We had a data with clean.One of Teammate had alrerady set up machine learning with Aws server.Now We were need to find best model fit for data.I was also drive into machine learning to try to get high accuray. It was very hard to get high accuary without overfitting.I contributed also tableu set up in third week.I tried to convert all project analysis into tableu and tried to find best answer for project Analysis.It was very short week for cover all things .
  
  
-In Fourth and final week for Project ,Our TA gave to us  one more challenge to add web app as part of Darshboad That'why We had a lot of frusruted. Because nobody had any type of exprience  for dump machine learning into flask app.Everybody tried to find way by watching video about dump machine learning dump into flask app.I was also drive into to find solution.Finally We got solution about it.I prepared also  tableau and ppt google side for presentations.It was great exprience.I learnt a lot of things from project.
+In Fourth and final week for Project ,We were about done our project but Our TA gave to us  one more challenge to add web app as part of Darshboad That'why We had a lot of frusruted. Because nobody had any type of exprience  for dump machine learning into flask app and also We had 4 days for complete webapp.Everybody tried to find way by watching video &online material to  about  how to dump machine learning dump into flask app.I was also drive into to find solution.Finally We got solution by a lot of experiment.I prepared also  tableau and ppt google side for presentations.It was great exprience.I learnt a lot of things from project.I was very gratefull to part of nice team member.
 
 
 
@@ -21,10 +21,10 @@ In Fourth and final week for Project ,Our TA gave to us  one more challenge to a
 # Team Assessment:
 
 
-For Project ,We had a powerfull team just like-Sonia , Val, Shawn, Neal,Meredith and me.We started to pick topics for final week.We decided to pick a Wine_weather for final project And also Soil data keep in mind.Because  of We need a storng base for project.We did split team into 3 different team's task just like-One team for Data Cleanning &Data Expolation, One Team for Machine Learning and One Team for Database,PPt,Presentations. 
+For Project ,We had a powerfull team just like-Sonia , Val, Shawn, Neal,Meredith and me.Everyone have different storng background.We started to pick topics for final week.We decided to pick a Wine_weather for final project And also Soil data keep in mind.Because  of We need a storng base for project.We did split team into 3 different team's task just like-One team for Data Cleanning &Data Expolation, One Team for Machine Learning and One Team for Database,PPt,Presentations. 
 
 
-Everybody did good job in project .Communicate through Slack. Everyone uploads data to their Github branch and create a pull request. One Teammate merges the data after everyone discuss the final plans.Each member of team had there own branch and makes at least 4 commits per week.
+Everybody did good job in project .We communicated through Slack. Everyone uploads data to their Github branch and create a pull request. One Teammate merges the data after everyone discuss the final plans.Each member of team had there own branch and makes at least 4 commits per week.
 
 Everybody helped to each other whenever sometime stuck in problem.We did it by all team member.During project We faced some challenge like-merging weather and wine data was that several appellations (regions) within a state straddled two different zip codes and The Webapp  as  the Machine Learning model to determine if the wine is of high quality or low quality.We sloved challenge by all teammate 's support.
 
@@ -55,7 +55,7 @@ We chose the Logistic Regression model as the best fit model for this analysis a
 #### Flask App/HTML as Dashboard:
 
 
-The flask app was desgined along with the HTML to allow users to input data into our app and determine if a particular wine from a particular year is a good vintage. The app takes in inputs such as: red or white wine, vintage, and the vineyard where the wine comes from. The app then uses the Machine Learning model to determine if the wine is of high quality or low quality. Some of the challenges we faced when building the app are that we have red and white wine csv files, we needed to use JavaScript to filter through the vineyards based on color because all wineries did not grow red and white grapes.link is for web app.
+The flask app was desgined along with the HTML to allow users to input data into our app and determine if a particular wine from a particular year is a good vintage. The app takes in inputs such as: red or white wine, vintage, and the vineyard where the wine comes from. The app then uses the Machine Learning model to determine if the wine is of high quality or low quality.link is for web app.
 
 
 
